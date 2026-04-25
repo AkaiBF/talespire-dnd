@@ -1,0 +1,32 @@
+import { Option } from "../types/option";
+
+export const SpeciesPresetList: Option[] = [
+  { label: 'Humano', value: 1 },
+  { label: 'Enano', value: 2 },
+  { label: 'Elfo', value: 3 },
+  { label: 'Mediano', value: 4 },
+  { label: 'Semielfo', value: 5 },
+  { label: 'Semiorco', value: 6 },
+  { label: 'Tiefling', value: 7 },
+  { label: 'Dracónido', value: 8 },
+  { label: 'Gnomo', value: 9 },
+  { label: "Aasimar", value: 10 },
+  { label: "Genasi", value: 11 },
+  { label: "Goliat", value: 12 },
+  { label: "Kenku", value: 13 },
+  { label: "Tabaxi", value: 14 },
+  { label: "Tritón", value: 15 },
+  { label: "Firbolg", value: 16 },
+  { label: "Hobgoblin", value: 17 },
+  { label: "Orco", value: 18 },
+  { label: "Yuan-Ti", value: 19 },
+  { label: "Loxodon", value: 20 },
+  { label: "Simic Hybrid", value: 21 },
+  { label: "Vedalken", value: 22 },
+  { label: "Minotauro", value: 23 },
+  { label: "Centauro", value: 24 },
+  { label: "Leonino", value: 25 },
+  { label: "Satyr", value: 26 },
+  { label: "Aarakocra", value: 27 },
+  { label: "Harvestborn", value: 28 }
+];

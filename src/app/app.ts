@@ -18,6 +18,8 @@ import { CharacterPreset } from './constants/character';
 import { ToastModule } from 'primeng/toast';
 import { TextareaModule } from 'primeng/textarea';
 import { MessageService } from 'primeng/api';
+import { SpeciesPresetList } from './constants/specie';
+import { BackgroundPresetList } from './constants/background';
 
 @Component({
   selector: 'app-root',
@@ -38,12 +40,8 @@ export class App {
   skillList: Skill[] = [];
   weaponList: any[] = [];
   spellAbilityOptions: Option[] = []
-  speciesOptions: Option[] = [
-    { label: "Yuan-Ti", value: 1 }
-  ]
-  backgroundOptions: Option[] = [{
-    label: "Guide", value: 1
-  }]
+  speciesOptions: Option[] = SpeciesPresetList;
+  backgroundOptions: Option[] = BackgroundPresetList;
   classOptions: Option[] = ClassPresetList;
   alignmentOptions: Option[] = AlignmentPresetList;
   sizeOptions: Option[] = SizePresetList;
