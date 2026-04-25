@@ -25,8 +25,8 @@ export const CharacterPreset: Character = {
   speed: 30,
   proficiencyBonus: 2,
   hp: {
-    max: 0,
-    current: 0,
+    max: 10,
+    current: 10,
     temp: 0
   },
   hitDice: '',
