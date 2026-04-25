@@ -1,0 +1,20 @@
+export const SkillPresetList = [
+  { key: 1, label: "Acrobatics", ability: "dex" },
+  { key: 2, label: "Animal Handling", ability: "wis" },
+  { key: 3, label: "Arcana", ability: "int" },
+  { key: 4, label: "Athletics", ability: "str" },
+  { key: 5, label: "Deception", ability: "cha" },
+  { key: 6, label: "History", ability: "int" },
+  { key: 7, label: "Insight", ability: "wis" },
+  { key: 8, label: "Intimidation", ability: "cha" },
+  { key: 9, label: "Investigation", ability: "int" },
+  { key: 10, label: "Medicine", ability: "wis" },
+  { key: 11, label: "Nature", ability: "int" },
+  { key: 12, label: "Perception", ability: "wis" },
+  { key: 13, label: "Performance", ability: "cha" },
+  { key: 14, label: "Persuasion", ability: "cha" },
+  { key: 15, label: "Religion", ability: "int" },
+  { key: 16, label: "Sleight of Hand", ability: "dex" },
+  { key: 17, label: "Stealth", ability: "dex" },
+  { key: 18, label: "Survival", ability: "wis" }
+]
